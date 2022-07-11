@@ -11,7 +11,7 @@ class Config(dict):
             kwargs |= args[0]
         else:
             for key, item in enumerate(args):
-                kwargs[key] = item
+                kwargs[str(key)] = item
 
         list_arg = self.__get_all_configs_user__() | kwargs
         super().__init__(list_arg)
