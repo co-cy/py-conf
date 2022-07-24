@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
 setup(name="pyliteconf",
-      version="0.0.3",
-      pakages=find_packages(),
+      version="0.0.4",
+      packages=find_packages(),
 
       description='Library for creating configs on python',
 
